@@ -1,5 +1,11 @@
 Similar to [react-redux-architecture](https://github.com/hirviid/react-redux-architecture), but with Apollo (GraphQL) instead of Redux.
 
+# React Apollo Architecture
+
+**Work in progress**
+
+An opinionated architecture for structuring large React/Redux applications.
+
 ### Features
 
 * Uses Apollo with apollo-link-rest to use GraphQL in the front-end with a regular REST back-end
