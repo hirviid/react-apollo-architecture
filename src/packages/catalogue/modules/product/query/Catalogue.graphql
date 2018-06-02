@@ -1,0 +1,14 @@
+query Catalogue {
+  catalogue @rest(type: "Catalogue", endpoint: "whiskyCatalogue", path: "") {
+    products {
+      id
+      name
+      price
+      type
+      content
+      region
+      country
+      alcohol
+    }
+  }
+}

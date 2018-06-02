@@ -1,0 +1,41 @@
+directive @rest(
+  method: String
+  type: String
+  path: String
+  endpoint: String
+  pathBuilder: String
+  bodyBuilder: String
+  bodyKey: String
+) on FIELD
+
+enum WhiskyType {
+  SINGLE_MALT
+  BLENDED
+  BOURBON
+}
+
+type Price {
+  value: Float!
+  currency: String!
+}
+
+type Product {
+  id: Int!
+  name: String!
+  price: Price!
+  description: String!
+  distillery: String!
+  content: String!
+  region: String!
+  country: String!
+  alcohol: String!
+  whiskyType: WhiskyType!
+}
+
+type Catalogue {
+  products: [Product]!
+}
+
+type Query {
+  catalogue: Catalogue
+}

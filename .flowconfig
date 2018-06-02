@@ -1,0 +1,12 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/fbjs/.*
+
+[include]
+[libs]
+./src/common/api/schema.flow.js
+
+[options]
+esproposal.class_instance_fields=enable
+module.name_mapper.extension='graphql' -> '<PROJECT_ROOT>/utils/graphqlShim'
+
+[lints]
