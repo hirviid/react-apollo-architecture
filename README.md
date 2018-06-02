@@ -4,7 +4,7 @@ Similar to [react-redux-architecture](https://github.com/hirviid/react-redux-arc
 
 **Work in progress**
 
-An opinionated architecture for structuring large React/Redux applications.
+An opinionated architecture for structuring large React/Apollo applications.
 
 ### Features
 
