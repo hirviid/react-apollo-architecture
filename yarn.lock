@@ -200,14 +200,6 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@onsenui/custom-elements@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@onsenui/custom-elements/-/custom-elements-1.0.0.tgz#8e2b5c8968b8d94da70c6e92ecc56b47f79a0ff3"
-
-"@onsenui/fastclick@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@onsenui/fastclick/-/fastclick-1.1.1.tgz#0708ec6c7bdca8b87a028deb0dbb66b92001f737"
-
 "@types/async@2.0.49":
   version "2.0.49"
   resolved "https://registry.yarnpkg.com/@types/async/-/async-2.0.49.tgz#92e33d13f74c895cb9a7f38ba97db8431ed14bc0"
@@ -2050,7 +2042,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.1, core-js@^2.5.3:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.3:
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.6.tgz#0fe6d45bf3cac3ac364a9d72de7576f4eb221b9d"
 
@@ -5916,14 +5908,6 @@ onetime@^2.0.0:
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
   dependencies:
     mimic-fn "^1.0.0"
-
-onsenui@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/onsenui/-/onsenui-2.9.2.tgz#f860eb528b1e60ee4d8d5e1ec59ebd3002928355"
-  dependencies:
-    "@onsenui/custom-elements" "1.0.0"
-    "@onsenui/fastclick" "1.1.1"
-    core-js "^2.5.1"
 
 opn@5.2.0:
   version "5.2.0"

@@ -8,7 +8,6 @@
     "apollo-link-rest": "^0.2.4",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
-    "onsenui": "^2.9.2",
     "react": "^16.3.2",
     "react-apollo": "^2.1.4",
     "react-dom": "^16.3.2",
@@ -41,17 +40,14 @@
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "prettify":
-      "prettier --trailing-comma es5 --single-quote --print-width 100 --write \"src/**/*.js\"",
+    "prettify": "prettier --trailing-comma es5 --single-quote --print-width 100 --write \"src/**/*.js\"",
     "flow": "flow check",
     "flow:watch": "flow-watch",
     "fix": "eslint --fix src",
     "lint": "eslint src",
-    "gql:generate":
-      "apollo-codegen introspect-schema ./src/common/api/schema.graphql --output ./src/common/api/schema.json",
+    "gql:generate": "apollo-codegen introspect-schema ./src/common/api/schema.graphql --output ./src/common/api/schema.json",
     "gql:generate:flow": "gql2flow ./src/common/api/schema.json -o ./src/common/api/schema.flow.js",
-    "gql:generate:flow2":
-      "apollo-codegen generate src/**/*.graphql --schema ./src/common/api/schema.json --target flow --output ./src/common/api/graphql-export.flow.js"
+    "gql:generate:flow2": "apollo-codegen generate src/**/*.graphql --schema ./src/common/api/schema.json --target flow --output ./src/common/api/graphql-export.flow.js"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -64,9 +60,14 @@
     "singleQuote": true,
     "printWidth": 100
   },
-  "eslintIgnore": ["schema.flow.js"],
+  "eslintIgnore": [
+    "schema.flow.js"
+  ],
   "eslintConfig": {
-    "extends": ["airbnb", "plugin:flowtype/recommended"],
+    "extends": [
+      "airbnb",
+      "plugin:flowtype/recommended"
+    ],
     "rules": {
       "arrow-parens": 0,
       "no-console": 0,
@@ -102,7 +103,9 @@
       "react/jsx-filename-extension": [
         1,
         {
-          "extensions": [".js"]
+          "extensions": [
+            ".js"
+          ]
         }
       ],
       "graphql/template-strings": [
@@ -122,6 +125,9 @@
       "URL": true,
       "google": true
     },
-    "plugins": ["flowtype", "graphql"]
+    "plugins": [
+      "flowtype",
+      "graphql"
+    ]
   }
 }
