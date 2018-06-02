@@ -9,25 +9,6 @@ const restLink = new RestLink({
   endpoints: {
     whiskyCatalogue: `${URI}data/products.json`,
   },
-  // customFetch: (url, options) => {
-  //   const patchedOptions = {
-  //     ...options,
-  //     body: JSON.stringify({
-  //       accessToken: '24c684f5-c094-4c08-9045-dd3eff74b9e4',
-  //       date: '2018-05-10T22:00:00.000Z',
-  //       localTimeOffset: '+02:00',
-  //       current: false,
-  //       airportCode: 'HKG',
-  //       aircraftRegId: null,
-  //       flightNumber: null,
-  //       passengerFlights: true,
-  //       freighterFlights: true,
-  //       application: 'ROLS',
-  //     }),
-  //     method: 'POST',
-  //   };
-  //   return fetch(url, patchedOptions);
-  // },
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
